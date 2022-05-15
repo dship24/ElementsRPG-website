@@ -144,18 +144,61 @@ body {
 .title{
     font-size: 45px;
     margin-top: 150px;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    padding: 35px 0;
+    background: rgba(0, 0, 0, 0.5);
+    border: rgb(255, 0, 0) inset 2px;
+}
+
+.explanation {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.overview {
+    font-size: 36px;
+}
+/* Elements */
+
+.fire {
+    font-size: 45px;
+    margin-top: 150px;
     justify-content: center;
     width: 30%;
     margin-left: 35%;
     padding: 35px 0;
-    height: 50px;
-    background: rgba(0, 0, 0, 0.5);
-    border: rgb(255, 0, 0) inset 2px;
+    border: 0.3em  darkred ridge !important;
+    color:red;
 }
-/* About Elements */
 
+.elementDescription {
+    font-size: 25px;
+    border: 0px 70px hidden;
+}
 
 /* About Us */
+.game_master_box{
+    width: 70%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px 15%;
+    padding: 40px 0;
+}
 
+.game_master_name{
+    width: 25%;
+    margin: 0 37.5% 3% 37.5%;
+    font-size: 40px;
+    border-bottom: solid red 2px;
+}
+
+.game_master_story{
+    width: 90%;
+    margin: 0 5%;
+    line-height: 25px;
+    font-size: 20px;
+}
 
 /* Contact Us */

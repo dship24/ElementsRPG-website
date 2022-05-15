@@ -23,6 +23,8 @@
 									<!--This will allow me to change some font to Fondamento-->
 							
 										<link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+										<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 			
 		</head>
 		
@@ -30,12 +32,25 @@
 		<body>	
 			
 			<div class="navbar">
-				<img class="navbar_img" src="static/images/elements_logo.jpg"/>
-				<a href="index.html"><p class="navbar_link">Home</p></a>
-				<a href="about_elements.html"><p class="navbar_link">Elements</p></a>	
-				<a href="about_us.html"><p class="navbar_link">About Us</p></a>
-				<a href="contact_us.html"><p class="navbar_link">Contact Us</p></a>
-				<a href="online_download.html"><p class="navbar_link">Download</p></a> <!--Not actually a function yet-->
+				<a href="about_us.html"><p class="navbar_link navbar_left_1">About Us</p></a>
+				<div class="dropdown navbar_left_2">
+					<button class="dropbtn">Elements <i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+						<a href="fire.html">Fire</a>
+						<a href="water.html">Water</a>
+						<a href="ice.html">Ice</a>
+						<a href="lightning.html">Lightning</a>
+						<a href="life.html">Life</a>
+						<a href="earth.html">Earth</a>
+						<a href="plague.html">Plague</a>
+						<a href="wind.html">Wind</a>
+						<a href="light.html">Light</a>
+						<a href="dark.html">Dark</a>
+					</div>
+				</div>	
+				<a href="index.html"><img class="navbar_img" src="static/images/elements_logo.jpg" /> </a>
+				<a href="contact_us.html"><p class="navbar_link navbar_right_1">Contact Us</p></a>
+				<a href="online_download.html"><p class="navbar_link navbar_right_2">Download</p></a>
 			</div>
 		
 				<h1 class="CUtitle double shadow"> Contact Us </h1>
